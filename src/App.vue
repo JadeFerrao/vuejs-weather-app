@@ -31,6 +31,9 @@
           <div class="visibility">Visibility: {{ weather.visibility }} m</div>
         </div>
       </div>
+     
+      <div class="error-weather-wrap" v-else-if="weather.cod == 404" >{{ weather.message }}</div>
+
     </main>
   </div>
 </template>
@@ -111,6 +114,16 @@ export default {
   text-transform: uppercase;
   letter-spacing: 2px;
   margin-top: 380px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Add a text shadow for a cool effect */
+}
+
+.error-weather-wrap{
+font-size: 24px;
+  color: red; /* Change the text color as desired */
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-bottom: 480px;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Add a text shadow for a cool effect */
 }
 
