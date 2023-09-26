@@ -12,7 +12,7 @@
       </div>
 
       <!-- Add the weather icon and text here -->
-      <!-- <div class="weather-app-text">Weather App</div> -->
+      <div class="weather-app-text" v-if="typeof weather.main == 'undefined'">Weather App</div> 
 
       <div class="weather-wrap" v-if="typeof weather.main !== 'undefined'">
         <div class="location-box">
