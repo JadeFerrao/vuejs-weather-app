@@ -123,7 +123,6 @@ font-size: 24px;
   font-weight: bold;
   text-transform: uppercase;
   letter-spacing: 2px;
-  margin-bottom: 480px;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Add a text shadow for a cool effect */
 }
 
