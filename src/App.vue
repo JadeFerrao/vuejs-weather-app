@@ -113,7 +113,7 @@ export default {
   font-weight: bold;
   text-transform: uppercase;
   letter-spacing: 2px;
-  margin-top: 380px;
+  margin-top: 500px;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Add a text shadow for a cool effect */
 }
 
